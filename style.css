@@ -1,0 +1,71 @@
+ a {font:Normal 12px; color:#EBE8AF;text-decoration: none;}
+ a:hover {font: Normal 12px; color:#1EB21C;background:#EBE8AF; text-decoration: none;}
+body { 
+  display: grid;
+  grid-template-areas: 
+    "header header picture"
+    "hobby TheQuint Places"
+    "footer footer footer";
+  grid-template-rows: 40% 40% 1fr;
+  grid-template-columns: 33.3% 1fr 33.3%;
+  grid-row-gap: 5px;
+  height: 100vh;
+  margin: 0;
+  }
+  
+header {
+  padding: 100px;
+  background: #1EB21C;
+  color: #EBE8AF;
+}
+picture {
+  background: #1EB21C;
+}
+TheQuint {
+  text-align: center;
+  background: #2FC52D;
+  color: #EBE8AF;
+}
+hobby {
+  text-align:center;
+  background:#1EB21C;
+  color:#EBE8AF;
+  
+}
+Places {
+  text-align:center;
+  background:#28E326;
+  color: #EBE8AF;
+  
+}
+
+body{
+  background:#EBE8AF
+}
+  
+footer{
+  text-align: center;
+  background:#28E326;
+  color:#EBE8AF
+}
+
+#pageHeader {
+  grid-area: header;
+}
+#pgpic {
+  grid-area: picture;
+}
+  
+#pageFooter {
+  grid-area: footer;
+}
+#TheQuint2 { 
+  grid-area: TheQuint;      
+  }
+#mainHobby { 
+  grid-area: hobby; 
+  }
+#siteAds { 
+  grid-area: ads; 
+  }
+
