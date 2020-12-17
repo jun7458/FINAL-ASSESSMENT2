@@ -69,3 +69,26 @@ footer{
   grid-area: ads; 
   }
 
+.button {
+
+  background-color: #EBE8AF;
+
+  border: none;
+
+  color: green;
+
+  padding: 30px 30px;
+
+  text-align: center;
+
+  text-decoration: none;
+
+  display: inline-block;
+
+  font-size: 16px;
+
+  margin: 4px 2px;
+
+  cursor: pointer;
+
+}
